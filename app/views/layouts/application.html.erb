@@ -18,7 +18,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <%= link_to "/", class: "navbar-brand" do %>
+          <%= link_to root_path, class: "navbar-brand" do %>
             <i class="fa fa-group"></i>
             DEVmatch
           <% end %>
@@ -27,21 +27,21 @@
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <%= link_to "http://www.facebook.com/" do %>
+              <%= link_to "http://www.facebook.com/" do %><!-- Social Media -->
                 <i class="fa fa-facebook"></i>
               <% end %>
             </li>
             <li>
-              <%= link_to "http://www.twitter.com/" do %>
+              <%= link_to "http://www.twitter.com/" do %><!-- Social Media -->
                 <i class="fa fa-twitter"></i>
               <% end %>
             </li>
             <li>
-              <%= link_to "http://www.instagram.com/" do %>
+              <%= link_to "http://www.instagram.com/" do %><!-- Social Media -->
                 <i class="fa fa-instagram"></i>
                 <% end %>
             </li>
-            <li><%= link_to "About", "/about" %></li>
+            <li><%= link_to "About", about_path %></li><!-- About page link -->
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
