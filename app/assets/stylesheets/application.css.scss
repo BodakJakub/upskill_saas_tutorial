@@ -21,8 +21,8 @@
 
 //Typography style
 h1, h2, h3, .navbar { 
-    font-family: 'Open Sans Condensed', sans-serif; 
-} 
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
 p {
     font-family: "Arial";
@@ -37,11 +37,12 @@ p {
 
 }
 
+//navbar styles
+
 .navbar {
   border: none;
 }
 
-//navbar styles
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
@@ -50,7 +51,6 @@ p {
     opacity: 0.5;
   }
 }
-
 
 //Home Page styles
 .home-callout {
