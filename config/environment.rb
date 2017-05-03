@@ -10,7 +10,7 @@ ActionMailer::Base.smtp_settings = {
   :address        => ENV['MAILGUN_SMTP_SERVER'],
   :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
   :password       => ENV['MAILGUN_SMTP_PASSWORD'],
-  :domain         => 'app6984200b699d4b5d8f40fc5aedc657a8.mailgun.org',
+  :domain         => 'dry-cove-23367.herokuapp.com',
   :authentication => :plain,
 }
 ActionMailer::Base.delivery_method = :smtp
